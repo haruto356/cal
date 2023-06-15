@@ -71,3 +71,7 @@
     .operator:active {
       background: #2c80b4;
     }
+/* ダブルタップで拡大縮小しないようにする　*/
+html {
+  touch-action: manipulation;
+}
